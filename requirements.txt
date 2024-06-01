@@ -1,3 +1,8 @@
 streamlit
-sklearn
-pickle
+pandas
+nltk
+transformers
+torch
+tensorflow
+sentencepiece
+tf-keras
