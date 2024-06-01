@@ -6,3 +6,4 @@ torch
 tensorflow
 sentencepiece
 tf-keras
+sklearn
