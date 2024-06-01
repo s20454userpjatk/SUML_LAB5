@@ -42,7 +42,7 @@ def main():
         fare_slider = st.slider("Cena biletu", min_value=0, max_value=500, step=10)
 
     # TODO: complete data
-    data = []
+    data = np.array([[pclass_radio, age_slider, sibsp_slider, parch_slider, fare_slider, embarked_radio, sex_radio]])
     survival = model.predict(data)
     s_confidence = model.predict_proba(data)
 
