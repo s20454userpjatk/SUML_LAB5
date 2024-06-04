@@ -1,9 +1,3 @@
 streamlit
 pandas
-nltk
-transformers
-torch
-tensorflow
-sentencepiece
-tf-keras
-scikit-learn
+scikit-learn==1.2.2
